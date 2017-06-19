@@ -7,6 +7,10 @@
   <li>Loops (<a href="loops.asp" target="_blank">demo</a>)</li>
   <li>Array (<a href="array.asp" target="_blank">demo</a>)</li>
   <li>Function (<a href="function.asp" target="_blank">demo</a>)</li>
+  <li>Variable (<a href="variable.asp" target="_blank">demo</a>)</li>
+  <li>Sending Content (<a href="sendingcontent.asp" target="_blank">demo</a>)</li>
+  <li>Sending Content JSON (<a href="sendingcontent-json.asp" target="_blank">demo</a>)</li>
+  <li>Sending Content XML (<a href="sendingcontent-xml.asp" target="_blank">demo</a>)</li>
 </ol>
 
 <!--#include file="layouts/footer.asp"-->
