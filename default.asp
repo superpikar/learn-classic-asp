@@ -6,6 +6,7 @@
   <li>Conditional (<a href="conditional.asp" target="_blank">demo</a>)</li>
   <li>Loops (<a href="loops.asp" target="_blank">demo</a>)</li>
   <li>Array (<a href="array.asp" target="_blank">demo</a>)</li>
+  <li>Function (<a href="function.asp" target="_blank">demo</a>)</li>
 </ol>
 
 <!--#include file="layouts/footer.asp"-->
