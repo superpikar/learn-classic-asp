@@ -15,9 +15,11 @@
   <li>Transfer to conditional.jsp (<a href="sendingcontent-transfer.asp">demo</a>)</li>
   <li>Execute conditional.jsp (<a href="sendingcontent-execute.asp">demo</a>)</li>
   <li>Form GET (<a href="form-get.asp">demo</a>)</li>
-  <li>Form GET and Server Validation(<a href="form-get-validation.asp">demo</a>)</li>
+  <li>Form GET and Server Validation (<a href="form-get-validation.asp">demo</a>)</li>
   <li>Form POST (<a href="form-post.asp">demo</a>)</li>
-  <li>Form POST and Server Validation(<a href="form-post-validation.asp">demo</a>)</li>
+  <li>Form POST and Server Validation (<a href="form-post-validation.asp">demo</a>)</li>
+  <li>Session - Simple (<a href="session-simple.asp">demo</a>)</li>
+  <li>Session - Login Form (<a href="session-login.asp">demo</a>)</li>
 </ol>
 
 <!--#include file="layouts/footer.asp"-->
