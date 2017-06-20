@@ -4,5 +4,5 @@
   ' without leaving the server request queue
   ' it means the URL in the browser will not changed to the transfered URL
   ' works accross server
-  Server.Transfer("conditional.asp") 
+  Server.Transfer("basic-conditional.asp") 
 %> 

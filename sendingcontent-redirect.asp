@@ -3,5 +3,5 @@
   ' the redirect have to be placed before any text of <html> tags
   ' redirect sends a new http request for this URL
   ' it means the URL in the browser will changed to the redirected URL
-  Response.Redirect "conditional.asp"  
+  Response.Redirect "basic-conditional.asp"  
 %> 

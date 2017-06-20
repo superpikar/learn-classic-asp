@@ -4,5 +4,5 @@
   ' without leaving the server request queue
   ' it means the URL in the browser will not changed to the executed URL
   ' doesnt works accross server
-  Server.Execute("conditional.asp") 
+  Server.Execute("basic-conditional.asp") 
 %> 
