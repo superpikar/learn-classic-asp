@@ -2,15 +2,20 @@
 
 <h1>Learn ASP Classic</h1>
 <ol>
-  <li>Comment (<a href="comment.asp" target="_blank">demo</a>)</li>
-  <li>Conditional (<a href="conditional.asp" target="_blank">demo</a>)</li>
-  <li>Loops (<a href="loops.asp" target="_blank">demo</a>)</li>
-  <li>Array (<a href="array.asp" target="_blank">demo</a>)</li>
-  <li>Function (<a href="function.asp" target="_blank">demo</a>)</li>
-  <li>Variable (<a href="variable.asp" target="_blank">demo</a>)</li>
+  <li>Comment (<a href="basic-comment.asp" target="_blank">demo</a>)</li>
+  <li>Conditional (<a href="basic-conditional.asp" target="_blank">demo</a>)</li>
+  <li>Loops (<a href="basic-loops.asp" target="_blank">demo</a>)</li>
+  <li>Array (<a href="basic-array.asp" target="_blank">demo</a>)</li>
+  <li>Function (<a href="basic-function.asp" target="_blank">demo</a>)</li>
+  <li>Variable (<a href="basic-variable.asp" target="_blank">demo</a>)</li>
   <li>Sending Content (<a href="sendingcontent.asp" target="_blank">demo</a>)</li>
   <li>Sending Content JSON (<a href="sendingcontent-json.asp" target="_blank">demo</a>)</li>
   <li>Sending Content XML (<a href="sendingcontent-xml.asp" target="_blank">demo</a>)</li>
+  <li>Redirect to conditional.jsp (<a href="sendingcontent-redirect.asp">demo</a>)</li>
+  <li>Transfer to conditional.jsp (<a href="sendingcontent-transfer.asp">demo</a>)</li>
+  <li>Execute conditional.jsp (<a href="sendingcontent-execute.asp">demo</a>)</li>
+  <li>Form GET (<a href="form-get.asp">demo</a>)</li>
+  <li>Form POST (<a href="form-post.asp">demo</a>)</li>
 </ol>
 
 <!--#include file="layouts/footer.asp"-->

@@ -8,16 +8,15 @@
   </head>
   <body>
     <div class="uk-container">
-      <!--<nav class="uk-navbar-container uk-margin" uk-navbar="mode: click">
+      <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click">
         <div class="uk-navbar">
           <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
-              <li class="uk-active"><a href="#">Active</a></li>
-              <li><a href="#">Item</a></li>
+              <li class="uk-active"><a href="default.asp" style="cursor:pointer;">Home</a></li>
             </ul>
           </div>
         </div>
-      </nav>    -->
+      </nav>
       <div class="main-content">
     <!-- main content is in here -->
   
