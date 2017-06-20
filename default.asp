@@ -20,6 +20,7 @@
   <li>Form POST and Server Validation (<a href="form-post-validation.asp">demo</a>)</li>
   <li>Session - Simple (<a href="session-simple.asp">demo</a>)</li>
   <li>Session - Login Form (<a href="session-login.asp">demo</a>)</li>
+  <li>File System Object (FSO) (<a href="fso-list.asp">demo</a>)</li>
 </ol>
 
 <!--#include file="layouts/footer.asp"-->
