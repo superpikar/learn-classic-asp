@@ -1,12 +1,12 @@
 <!--#include file="layouts/header.asp"-->
 
-  <h1>Read File</h1>
+  <h1>Write File</h1>
 
   <%
     Dim fso, file, fileSpec, fileName
     Dim countrySplit
 
-    fileName = Application("rootURL") & "/files/countries.txt"
+    fileName = Application("rootURL") & "/files/cities.txt"
     fileSpec = Server.MapPath(fileName)
     
     ' OpenTextFile has several mode 
@@ -15,14 +15,12 @@
     ' 8 for append file content
     ' see : https://msdn.microsoft.com/en-us/library/314cz14s.aspx
     Set fso = CreateObject("Scripting.FileSystemObject")
-    Set file = fso.OpenTextFile(filespec,1) 
+    Set file = fso.OpenTextFile(filespec,2) 
 
-    Response.write "Reading file " & fileName & "<br/><br/>"
-    Do While Not file.AtEndOfStream
-      countrySplit = Split(file.ReadLine, ",")
-      Response.write countrySplit(0) &": "& countrySplit(1) &"<br/>"
-    Loop
+    Response.write "Writing file " & fileName & "<br/><br/>"
 
+    file.WriteLine "This is my first sentence. And then second sentence."
+    file.WriteLine "written at " & Now
   %>
 <!--#include file="layouts/footer.asp"-->
 
