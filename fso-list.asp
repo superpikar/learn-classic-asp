@@ -19,8 +19,8 @@
   <%
     ' read folder information
     Dim fso2, folder, folderSpec, folderURL
-    folderURL = "/asp/learn-classic-asp/"
-    folderSpec = Server.MapPath(folderURL)
+    folderURL = Application("rootURL")
+    folderSpec = Server.MapPath(folderURL&"/")
     Set fso2 = CreateObject("Scripting.FileSystemObject")
     Set folder = fso2.getFolder(folderSpec)
 
@@ -34,7 +34,7 @@
   <%
     ' read file information
     Dim fso3, file, fileSpec, fileURL
-    fileURL = "/asp/learn-classic-asp/default.asp"
+    fileURL = Application("rootURL")&"/default.asp"
     fileSpec = Server.MapPath(fileURL)
     Set fso3 = CreateObject("Scripting.FileSystemObject")
     Set file = fso3.getFile(fileSpec)
