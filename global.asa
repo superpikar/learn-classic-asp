@@ -4,6 +4,7 @@
 Sub Application_OnStart
   Application("visitors") = 0
   Application("rootURL") = "/learn-classic-asp"
+  Application("connectionString") = "Provider=SQLOLEDB.1;Data Source=USSER-PC\SQLEXPRESS;Database=learnasp;User Id=sa;Password=adminadmin"
 End Sub
 
 Sub Session_OnStart
@@ -17,7 +18,5 @@ Sub Session_OnEnd
   Application("visitors") = Application("visitors") - 1
   Application.UnLock
 End Sub
-
-
 
 </script>

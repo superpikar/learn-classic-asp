@@ -11,6 +11,7 @@ Learn classic ASP, because sometimes you have a client with the legacy project. 
 
 ## Reference : 
 - [Creating ASP Pages](https://msdn.microsoft.com/en-us/library/ms524796(v=vs.90).aspx)
+- [OOP in ASP classic](http://www.codeguru.com/csharp/.net/net_asp/tutorials/article.php/c19317/Object-Oriented-ASP-Using-Classes-in-Classic-ASP.htm)
 - [25+ ASP Tips to Improve Performance and Style](https://msdn.microsoft.com/en-us/library/ms972335.aspx)
 - [HTML.net ASP Tutorial](http://html.net/tutorials/asp)
 - [4Guys from Rolla](http://www.4guysfromrolla.com/)

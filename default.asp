@@ -1,6 +1,6 @@
 <!--#include file="layouts/header.asp"-->
 
-<h1>Learn ASP Classic</h1>
+<h1 class="uk-title">Learn ASP Classic</h1>
 <ol>
   <li>Comment (<a href="basic-comment.asp">demo</a>)</li>
   <li>Conditional (<a href="basic-conditional.asp">demo</a>)</li>
