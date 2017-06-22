@@ -23,7 +23,10 @@
   <li>File System Object (FSO) (<a href="fso-list.asp">demo</a>)</li>
   <li>Read File (<a href="fso-readfile.asp">demo</a>)</li>
   <li>Write File (<a href="fso-writefile.asp">demo</a>)</li>
+  <li>Write File Append(<a href="fso-writefile-append.asp">demo</a>)</li>
   <li>Server Variable (<a href="server-variable.asp">demo</a>)</li>
+  <li>Database Read (<a href="database-read.asp">demo</a>)</li>
+  <li>Database Write (<a href="database-write.asp">demo</a>)</li>
 </ol>
 
 <!--#include file="layouts/footer.asp"-->
