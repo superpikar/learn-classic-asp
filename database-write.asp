@@ -42,7 +42,7 @@
     submitMessage = "success submit new post"
   End If
 
-  ' --------------------- READ DATABASE --------------------
+  ' --------------------- READ DATABASE --------------------x
   Dim posts
   Set posts = Server.CreateObject("Scripting.Dictionary")
   
