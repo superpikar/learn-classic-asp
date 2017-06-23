@@ -37,7 +37,7 @@
   Dim newPost
   If title <> "" And content <> "" And status <> "" And submit <> "" Then
     connection.Open()
-    Set recordset = connection.Execute("INSERT INTO tb_posts (title,content,status) VALUES ('"& title &"','"& content &"','"& status &"');")
+    Set recordset = connection.Execute("INSERT INTO tb_posts (title,content,status,deleted) VALUES ('"& title &"','"& content &"','"& status &"','N');")
     connection.Close()
     submitMessage = "success submit new post"
   End If
@@ -54,7 +54,7 @@
   seq = 0
   Do While Not recordset.EOF
     seq = seq+1
-    set myPost = New Planet
+    set myPost = New Post
     myPost.Title = recordset.Fields("title")
     myPost.Content = recordset.Fields("content")
     myPost.Status = recordset.Fields("status")

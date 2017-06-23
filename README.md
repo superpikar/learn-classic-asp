@@ -7,7 +7,10 @@ Learn classic ASP, because sometimes you have a client with the legacy project. 
 2. Enable debugging [link](https://support.gearhost.com/hc/en-us/articles/203073104-Configure-IIS7-to-show-errors)
 3. Clone the project in your webroot directory or other directory
 4. Set the directory as new application [link](http://www.helpmasterpro.com/helpfile/Web%20Modules/html%20files/Virtual%20Directory%20-%20creating%20in%20iis7.htm) or [link](https://support.gearhost.com/hc/en-us/articles/200342055-Add-Virtual-Directory-as-Application-in-IIS7)
-5. change `Application("rootURL")` in the global.asa, match it with your application URL
+5. modify global configuration in the global.asa : 
+    - `applicationURL` : match it with your application URL
+    - `connectionString` : sql server connection string
+6. create table and insert the content (optional) from `files/tb_countries.sql` and `files/tb_posts.sql`
 
 ## Reference : 
 - [Creating ASP Pages](https://msdn.microsoft.com/en-us/library/ms524796(v=vs.90).aspx)

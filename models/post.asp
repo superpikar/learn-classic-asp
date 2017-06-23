@@ -1,5 +1,5 @@
 <% 
-  Class Planet
+  Class Post
     'Private, class member variable
     Private p_seq
     Private p_title
@@ -7,6 +7,13 @@
     Private p_status
 
     ' getter and setter
+    Public Property Get Seq()
+      Seq = p_seq
+    End Property
+    Public Property Let Seq(value)
+      p_seq = value
+    End Property
+    
     Public Property Get Title()
       Title = p_title
     End Property
