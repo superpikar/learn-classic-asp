@@ -8,7 +8,7 @@
   
   ' in vbscript we cannot use word "return"
   ' what we have to do is use functionName=  
-  ' it's so uncommon, isn't it
+  ' it's so uncommon, isn't it?
   Function printHello(name)
     printHello = "<p>Hello "&name&"</p>"
   End Function
