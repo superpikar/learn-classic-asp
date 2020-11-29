@@ -1,6 +1,12 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+# DEPRECATED
+This repo is no longer supported since I'm no longer working with ASP in recent years.
+
 # Learn Classic ASP 
 
 Learn classic ASP, because sometimes you have a client with the legacy project. :relieved:
+
 
 ## How to use this project
 1. Activate IIS on your Windows machine. [link](https://technet.microsoft.com/en-us/library/cc725762(v=ws.11).aspx)
